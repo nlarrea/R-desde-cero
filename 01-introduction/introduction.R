@@ -34,6 +34,7 @@ cat("Esto no imprime \"las barras\", solo las comillas")
 # variables de ejemplo:
 x <- 11
 y <- 4
+
 # OPERADORES ARITMÉTICOS
 # suma y resta
 print(x + y) # 11+4 = 15
@@ -60,6 +61,10 @@ print(max(x, y)) # imprime el mayor de los dos: 11
 # raíz cuadrada -> sqrt()
 print(sqrt(64)) # 8
 
+# repetir un valor X veces
+rep(98, 5) # repite "98" 5 veces: 98 98 98 98 98
+rep(c("si", "no"), 3) # repite "si" "no" 3 veces: "si" "no" "si" "no" "si" "no"
+
 
 
 # RELATIONAL OPERATORS
@@ -75,18 +80,7 @@ print (3 >= 3) # TRUE
 
 
 # INTRODUCIR DATOS MANUALMENTE / PEDIR DATOS AL USUARIO
-input <- readLines('stdin')
-
-# ahora input es una variable que guarda TODO lo que el usuario introduzca
-#al ejecutar el programa.
+input <- scan() # introducir datos separados por ENTER
 
 # si quieres acceder al primer elemento: input[1]
 # si quieres acceder al segundo elemento: input[2] (y así sucesivamente)
-
-# 'stdin' entre paréntesis es obligatorio (Standard Input)
-
-# todos los datos guardados en "input" se guardarán como STRINGS, si quieres
-#que esos datos se comporten como números:
-x <- as.integer(input[1])
-# ahora sí, puedes usar el dato de input[1] como un número:
-print(x * 2)

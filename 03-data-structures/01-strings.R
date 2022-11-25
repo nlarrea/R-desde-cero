@@ -21,3 +21,12 @@ print(txt) # imprime: "HOLA"
 
 txt <- tolower(txt)
 print(txt) # imprime: "hola"
+
+
+
+# CONVERTIR STRING EN INTEGER
+x <- "5"
+# si tenemos datos como STRINGS y queremos que sean numéricos:
+x <- as.integer(x)
+# ahora sí, puedes usar el dato de input[1] como un número:
+print(x * 2)

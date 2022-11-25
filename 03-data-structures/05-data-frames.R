@@ -1,4 +1,5 @@
 # DATA FRAMES -> para almacenar diferentes tipos de datos en dos dimensiones
+
 # un data frame es una tabla donde cada columna tiene un nombre y puede
 #contener cualquier tipo de dato
 
@@ -30,7 +31,7 @@ print(people)
 
 
 
-# FILTRAR LAS FILAS
+# FILTRAR DATOS
 print(people[people$age > 25, ])
 # imprime todos los datos de la que sea mayor de 25 (en este caso solo 1):
 # id     name age rugbyTeam
@@ -43,6 +44,12 @@ print(people[people$age > 25, ])
 print(subset(people, age > 25)) # imprime lo mismo de antes:
 # id     name age rugbyTeam
 #  1 Cristina  28     CUDER
+
+# WHICH()
+# la función which() devuelve la posición de los datos que cumplen la condición
+people # para ver el data frame
+which(people$rugbyTeam == "CUDER") # imprime: 1
+which(people$rugbyTeam == "UBR") # imprime: 2
 
 
 

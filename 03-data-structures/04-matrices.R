@@ -8,13 +8,23 @@ m <- matrix(c(1, 2, 3, 4, 5, 6), nrow = 2, ncol = 3)
 
 print(m)
 # imprime:
-# 1 3 5
-# 2 4 6
+#      [,1] [,2] [,3]
+# [1,]    1    3    5
+# [2,]    2    4    6
 
 # los datos se almacenan por columnas primero por defecto
 
 # si se da solo el valor de nrow, el valor de ncol se calcula automáticamente (y
 #lo mismo pasa cuando es al revés)
+
+# se pueden añadir nombres a las columnas y a las filas:
+rownames(m) <- c("R1", "R2") # nombres a las filas
+colnames(m) <- c("C1", "C2", "C3") # nombres a las columnas
+m # para mostrar el valor
+# imprime:
+#    C1 C2 C3
+# R1  1  3  5
+# R2  2  4  6
 
 
 
