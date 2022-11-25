@@ -32,7 +32,7 @@ Se recomienda clonar el repositorio para tener los archivos de código a mano.
 ## Temario del curso - TEORIA
 
 * **#01** - [Introducción a R](https://github.com/NLarrea/R-desde-cero/tree/main/01-introduction)
-* **#02** - [Programación en R](https://github.com/NLarrea/R-desde-cero/tree/main/02-programming-in-R)
+* **#02** - [Condiciones, bucles y funciones](https://github.com/NLarrea/R-desde-cero/tree/main/02-conditions-loops-functions)
 * **#03** - [Estructuras de datos](https://github.com/NLarrea/R-desde-cero/tree/main/03-data-structures)
 
 <br>
