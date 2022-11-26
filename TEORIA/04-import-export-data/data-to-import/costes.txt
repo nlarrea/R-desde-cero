@@ -1,0 +1,6 @@
+costo_unit	costo_mat	costo_mano_de_obra
+13,59	87	80
+15,71	78	95
+15,97	81	106
+20,21	65	115
+24,64	51	120
