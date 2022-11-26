@@ -18,26 +18,44 @@ En este repositorio se explicarán los fundamentos de R, cómo crear programas p
 
 ### ¿Qué necesito para seguir el curso?
 
-Para seguir el curso se necesita tener instalado **R** y **RStudio**. Para poder instalarlos solo debes hacer clic en los respectivos enlaces y seguir los pasos:
+**OPCIÓN 1:** tener instalado **R** y **RStudio**. Para poder instalarlos solo debes hacer clic en los respectivos enlaces y seguir los pasos:
 
 * [Instalar R](https://cran.r-project.org/)
 * [Instalar RStudio](https://posit.co/download/rstudio-desktop/)
 
-Otra opción es utilizar **Visual Studio Code** con el *plugin de R*. Para ello, debes instalar [Visual Studio Code](https://code.visualstudio.com/) y, una vez dentro, el plugin de R desde la pestaña de extensiones.
+<br>
 
-Se recomienda clonar el repositorio para tener los archivos de código a mano.
+**OPCIÓN 2:** utilizar **Visual Studio Code** con el *plugin de R* en lugar de **RStudio**.
 
-<br><hr><br>
+* [Instalar R](https://cran.r-project.org/)
+* [Instalar Visual Studio Code](https://code.visualstudio.com/)
+* [Instalar el plugin de R en Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r)
 
-## Temario del curso - TEORIA
-
-* **#01** - [Introducción a R](https://github.com/NLarrea/R-desde-cero/tree/main/01-introduction)
-* **#02** - [Condiciones, bucles y funciones](https://github.com/NLarrea/R-desde-cero/tree/main/02-conditions-loops-functions)
-* **#03** - [Estructuras de datos](https://github.com/NLarrea/R-desde-cero/tree/main/03-data-structures)
+Te dejo [aquí](https://code.visualstudio.com/docs/languages/r) más información sobre cómo usar R en Visual Studio Code.
 
 <br>
 
-<sub>Por ahora, solo se dispone de parte teórica. En un futuro se irán añadiendo ejercicios y ejemplos más prácticos y completos que los que se muestran en los archivos actuales, además de un fichero README con explicaciones más detalladas.</sub>
+Se recomienda clonar el repositorio para tener los archivos de código a mano, o hacer un fork para poder modificar los archivos y hacer tus propios experimentos.
+
+<br><hr><br>
+
+## Temario del curso - TEORÍA
+
+* **#01** - [Introducción a R](https://github.com/NLarrea/R-desde-cero/tree/main/TEORIA/01-introduction)
+* **#02** - [Condiciones, bucles y funciones](https://github.com/NLarrea/R-desde-cero/tree/main/TEORIA/02-conditions-loops-functions)
+* **#03** - [Estructuras de datos](https://github.com/NLarrea/R-desde-cero/tree/main/TEORIA/03-data-structures)
+* **#04** - [Importar y exportar datos](https://github.com/NLarrea/R-desde-cero/tree/main/TEORIA/04-import-export-data)
+* **#05** - [Análisis de datos](https://github.com/NLarrea/R-desde-cero/tree/main/TEORIA/05-analyzing-data)
+
+<br>
+
+## Temario del curso - EJERCICIOS
+
+* **#01** - [Estadística descriptiva](https://github.com/NLarrea/R-desde-cero/tree/main/EJERCICIOS/01-descriptive-statistics)
+
+<br>
+
+<sub>El curso se está llevando a cabo. En un futuro se irán añadiendo ejercicios y ejemplos más prácticos y completos que los que se muestran en los archivos actuales, además de ficheros README con explicaciones aún más detalladas.</sub>
 
 
 <br><hr><br>
