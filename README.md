@@ -46,6 +46,7 @@ Se recomienda clonar el repositorio para tener los archivos de código a mano, o
 * **#03** - [Estructuras de datos](https://github.com/NLarrea/R-desde-cero/tree/main/TEORIA/03-data-structures)
 * **#04** - [Importar y exportar datos](https://github.com/NLarrea/R-desde-cero/tree/main/TEORIA/04-import-export-data)
 * **#05** - [Análisis de datos](https://github.com/NLarrea/R-desde-cero/tree/main/TEORIA/05-analyzing-data)
+* **#06** - [Gráficos](https://github.com/NLarrea/R-desde-cero/tree/main/TEORIA/06-plots)
 
 <br>
 
