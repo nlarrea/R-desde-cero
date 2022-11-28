@@ -42,4 +42,4 @@ print(sort(numsVector, decreasing = TRUE)) # 6 4 2
 print(mean(numsVector)) # 4
 
 # convertir una lista en vector hace que todos sus valores pasen a ser del mismo
-#tipo, porque los vectores solo pueden tener un tipo de dato en su interior
+# tipo, porque los vectores solo pueden tener un tipo de dato en su interior

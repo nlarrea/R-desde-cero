@@ -45,7 +45,7 @@ print(sort(numeros)) # imprime: 1.00 2.00 3.14 42.00 2024.00
 # para ordenarlo de forma descendente:
 print(sort(numeros, decreasing = TRUE)) # imprime: 2024.00 42.00 3.14 2.00 1.00
 
-# saber si los valores de un vector se encuentran en otro
+# saber qué valores de un vector se encuentran en otro
 a <- c(1:10) # vector 1
 b <- c(1, 3, 7, 15, 20) # vector 2
 b[b%in%a] # los elementos de b que están también en a
@@ -65,7 +65,7 @@ print(x) # imprime: 1 3 5 7 9
 
 # ARITMÉTICA CON VECTORES
 # se pueden hacer operaciones aritméticas entre dos vectores si tienen la
-#misma longitud (sumar, restar, multiplicar, etc.)
+# misma longitud (sumar, restar, multiplicar, etc.)
 v1 <- c(2, 6, 1, 5)
 v2 <- c(5, 3, 4, 8)
 

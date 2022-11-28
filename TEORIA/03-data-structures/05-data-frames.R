@@ -1,7 +1,7 @@
 # DATA FRAMES -> para almacenar diferentes tipos de datos en dos dimensiones
 
 # un data frame es una tabla donde cada columna tiene un nombre y puede
-#contener cualquier tipo de dato
+# contener cualquier tipo de dato
 
 # CREAR UN DATA FRAME -> data.frame()
 people <- data.frame("id"=1:2, "name"=c("Cristina", "Naia"), "age"=c(28, 24))
@@ -15,10 +15,10 @@ print(people[["name"]]) # es lo mismo que antes: Cristina Naia
 print(people$name) # lo mismo que antes: Cristina Naia
 
 print(people[2])
-# imprime
-# name
+# imprime:
+#     name
 # Cristina
-# Naia
+#     Naia
 
 print(people[2, 3]) # fila 2, columna 3 -> imprime: 24
 print(people[[2,"age"]]) # lo mismo que antes: 24
@@ -73,10 +73,10 @@ summary(people)
 
 # FACTORS
 # cuando un data frame tiene columnas que son solo texto, R crea "factors", que
-#son variables con un limitado número de valores
+# son variables con un limitado número de valores
 estaciones <- factor(c("Invierno", "Primavera", "Verano", "Otoño", "Invierno"))
 # a cada valor se le llama "level", se puede acceder a ellos con: levels(), y
-#no se repiten los valores:
+# no se repiten los valores:
 print(levels(estaciones)) # imprime: "Invierno" "Otoño" "Primavera" "Verano"
 # cada valor tiene sus números, se puede acceder a ellos usando table()
 print(table(estaciones))
@@ -89,6 +89,10 @@ print(table(estaciones))
 gender <- factor(c("Female", "Female"))
 people$gender <- gender
 print(people)
+# imprime:
+#   id     name age rugbyTeam gender
+#    1 Cristina  28     CUDER Female
+#    2     Naia  24       UBR Female
 
 # los factors son útiles porque almacenan los textos una única vez y guarda
-#cuántas veces se repite en forma de vectores
+# cuántas veces se repite en forma de vectores
