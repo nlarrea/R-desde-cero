@@ -28,5 +28,5 @@ print(txt) # imprime: "hola"
 x <- "5"
 # si tenemos datos como STRINGS y queremos que sean numéricos:
 x <- as.integer(x)
-# ahora sí, puedes usar el dato de input[1] como un número:
+# ahora sí, puedes usar el dato de 'x' como un número:
 print(x * 2)
