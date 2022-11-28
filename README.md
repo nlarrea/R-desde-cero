@@ -52,7 +52,8 @@ Se recomienda clonar el repositorio para tener los archivos de código a mano, o
 
 ## Temario del curso - EJERCICIOS
 
-* **#01** - [Estadística descriptiva](https://github.com/NLarrea/R-desde-cero/tree/main/EJERCICIOS/01-descriptive-statistics)
+* **#01** - [Ejercicios básicos](https://github.com/NLarrea/R-desde-cero/tree/main/EJERCICIOS/01-basic-exercises)
+* **#02** - [Estadística descriptiva](https://github.com/NLarrea/R-desde-cero/tree/main/EJERCICIOS/02-descriptive-statistics)
 
 <br>
 
