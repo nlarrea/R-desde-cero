@@ -19,9 +19,11 @@ setwd("C:/Users/larre/Documents/NAIA/programacion/R-desde-cero/04-analyzing-data
 dataCostesTxt <- read.table(file = "costes.txt", header = TRUE, dec = ".", sep = "\t")
 
 # file = "archivo desde el que leer"
-#   si no estuviéramos trabajando en el directorio donde se encuentra "costes.txt",
-#   habría que haber indicado en "file" el directorio en vez de solo el nombre
-#   del archivo
+# 
+# si no estuviéramos trabajando en el directorio donde se encuentra "costes.txt",
+# habría que haber indicado en "file" el directorio en vez de solo el nombre
+# del archivo
+# 
 # header = TRUE o FALSE. Indica si los datos tienen una cabecera (en este caso, sí)
 # dec = con qué se indican las comas en los números: "." (en este caso), o ","
 # sep = con qué se han separado los datos a importar en el archivo .txt
@@ -46,7 +48,7 @@ summary(dataCostesTxt) # podemos ver un "resumen" de lo que se ha importado
 var(dataCostesTxt$costo_unit) # dará error -> no es accesible
 
 # vamos a hacer los datos accesibles de forma "global" convirtiendo dataCostesTxt
-#en un data frame:
+# en un data frame:
 attach(dataCostesTxt)
 
 # imprimir los nombres de las variables creadas
@@ -79,14 +81,16 @@ library() # debemos ver si tenemos "readxl" y "openxlsx" instalados
 
 # PASO 2: instalar las librerías
 # Ir a "Packages" en la ventana inferior derecha de RStudio y clicar en Install
+# 
 # Escribir primero el nombre de una librería (readxl, por ejemplo) y clicar
-#en instalar. Repetir con la otra librería (openxlsx).
+# en instalar. Repetir con la otra librería (openxlsx).
 
 # PASO 3: activar las librerías
 # FORMA 1
 # Acceder a "Packages" en la ventana inferior derecha de RStudio.
 # Buscar y activar el paquete "readxl" clicando en el checkbox de la izquierda
 # Buscar y activar el paquete "openxlsx" de la misma forma
+# 
 # FORMA 2
 library(readxl)
 library(openxlsx)

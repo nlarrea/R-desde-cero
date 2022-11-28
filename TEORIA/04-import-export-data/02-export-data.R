@@ -3,12 +3,12 @@
 #   - readxl
 #   - openxlsx
 # RECORDATORIO -> PREFERIBLE ESTAR TRABAJANDO EN EL DIRECTORIO DE TRABAJO DONDE
-#SE VAN A IMPORTAR / EXPORTAR LOS DATOS
+# SE VAN A IMPORTAR / EXPORTAR LOS DATOS
 #   - getwd() ->
 #   - setwd() ->
 
 # se pueden exportar los datos guardados en un data frame tanto a formato .txt,
-#como a Excel
+# como a Excel
 
 # EJEMPLO
 # creamos un data frame
@@ -24,7 +24,7 @@ numeros <- data.frame(num, num_cuadrado, num_cubo)
 numeros
 
 # como la data frame la ha creado R, no es necesario hacer "attach()" para
-#acceder a los datos de forma individual:
+# acceder a los datos de forma individual:
 num
 mean(num_cuadrado)
 
