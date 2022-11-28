@@ -37,8 +37,8 @@ result <- switch(
   "Tres",
   "Cuatro"
 )
-print(result) # imprime: "Tres", porque es el texto en la tercera posición y
-#num vale 3
+print(result)
+# imprime: "Tres", porque es el texto en la tercera posición y num vale 3
 
 # otro ejemplo:
 x <- "c"
@@ -49,5 +49,5 @@ result <- switch(
   "c" = "Tres",
   "d" = "Cuatro"
 )
-print(result) # imprime: "Tres", porque hemos dicho que x vale "c", y el valor
-#de "c" es "Tres"
+print(result)
+# imprime: "Tres", porque hemos dicho que x vale "c", y el valor de "c" es "Tres"
