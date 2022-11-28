@@ -1,14 +1,17 @@
 # esto es un comentario, puedes escribir lo que quieras
 # para crear un comentario, usa: '#'
 
-# con la función print() se pueden imprimir los valores por pantalla
+# con la función print() se pueden imprimir los valores por pantalla, aunque
+# aquí, en RStudio, puedes ver su valor en la consola con solo escribir el
+# nombre de la variable
 
 
 
 # VARIABLES
 # para crear variables se usa '=' o '<-' (el segundo se usa más en R)
+# 
 # las variables en R son "case-sensitive", es decir, que "num" y "Num"
-#son dos variables distintas
+# son dos variables distintas
 
 
 
@@ -16,7 +19,8 @@
 # numéricos (con comas)
 var1 <- 3.14
 
-# integers (numéricos pero sin comas) -> poner un 'L' al final para indicar que es integer
+# integers (numéricos pero sin comas) -> poner un 'L' al final para indicar
+# que es integer
 var <- 88L
 
 # texto (strings) -> tienen que ir entre comillas dobles (") o simples (')
@@ -27,6 +31,10 @@ print("Esto imprime \"las barras\" y las comillas")
 cat("Esto no imprime \"las barras\", solo las comillas")
 
 # booleanos -> o verdadero (TRUE), o falso (FALSE)
+verdadero <- TRUE # tambiés se puede usar solo 'T'
+verdaderoTambien <- T
+falso <- FALSE
+falsoTambien <- F
 
 
 
@@ -80,7 +88,21 @@ print (3 >= 3) # TRUE
 
 
 # INTRODUCIR DATOS MANUALMENTE / PEDIR DATOS AL USUARIO
-input <- scan() # introducir datos separados por ENTER
-
-# si quieres acceder al primer elemento: input[1]
+# introducir datos separados por ENTER: si se desea dejar de introducir datos,
+# se debe dejar el espacio sin escribir y pulsar ENTER de nuevo
+input <- scan()
+input
+# se habrá creado un vector con varios calores
+# si quieres acceder al primer elemento de input: input[1]
 # si quieres acceder al segundo elemento: input[2] (y así sucesivamente)
+
+
+# otra forma de introducir datos manualmente es usar readline()
+input <- readline(prompt = "Introduce algo: ")
+input
+# en este caso solo se recoge un único dato en formato "String", es decir, como
+# cadena de texto.
+# Si se ha introducido un valor numérico y se desea trabajar con él, deberá
+# transformarse en un tipo de dato numérico
+input <- as.numeric(input)
+input
