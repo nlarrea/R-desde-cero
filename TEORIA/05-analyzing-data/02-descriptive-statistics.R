@@ -177,7 +177,7 @@ boxplot.stats(datos2)
 # boxplot es un tipo de diagrama, se explicará en el tema 5
 
 # este diagrama nos ofrece mucha información acerca del posicionamiento de los
-#datos introducidos.
+# datos introducidos.
 
 # boxplot.stats() muestra los datos de forma numérica. Imprime lo siguiente:
 # $stats -> min(o valor inferior del bigote) Q1 Q2(mediana) Q3 max(o valor superior del bigote)
