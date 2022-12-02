@@ -25,14 +25,6 @@ print(lista2)
 
 
 
-# UNIR DOS LISTAS
-list1 <- list("a", "b", "c")
-list2 <- list("d", "e")
-mergedList <- c(list1, list2)
-print(mergedList) # una lista con los valores de list1 y list2
-
-
-
 # CONVERTIR UNA LISTA EN VECTOR -> para poder hacer operaciones aritméticas
 nums <- list(2, 4, 6)
 numsVector <- unlist(nums)
