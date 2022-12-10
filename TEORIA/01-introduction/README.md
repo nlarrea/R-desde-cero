@@ -164,8 +164,13 @@ Operadores:
   * El símbolo `!` indica la negación
 * **Operadores de asignación**: son símbolos que indican una operación de asignación. En R se escriben con el símbolo `<-` o `=`, aunque el primero es el más utilizado.
 
+<br>
 
-<br><hr><br>
+[TEMA 2 >>](../02-control-flow/README.md#condiciones-bucles-y-funciones)
+
+
+<br><hr>
+<hr><br>
 
 
 # Contacto
