@@ -535,6 +535,10 @@ Este sería el resultado:
 
 <sub>Puedes volver al [índice](#indice) de este archivo o seguir leyendo.</sub>
 
+<br>
+
+[<< TEMA 1](../01-introduction/README.md#introducción-a-r) | [TEMA 3 >>](../03-data-structures/README.md#estructuras-de-datos)
+
 
 <br><hr>
 <hr><br>
