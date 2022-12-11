@@ -11,7 +11,7 @@ getwd() # para comprobar que se ha cambiado el directorio
 
 
 
-# IMPORTAR DATOS DE ARCHIVO .txt CON COMANDOS -> read.table()
+# IMPORTAR DATOS DE ARCHIVO .txt CON COMANDOS -> forma 1 (comandos) -> read.table()
 # primero cambio el directorio por haber añadido carpeta para archivos
 setwd("C:/Users/larre/Documents/NAIA/programacion/R-desde-cero/04-analyzing-data/data-to-import")
 
@@ -43,8 +43,7 @@ summary(dataCostesTxt) # podemos ver un "resumen" de lo que se ha importado
 
 
 
-# ACCEDER A LOS DATOS DEL ARCHIVO .txt -> forma 1: comandos
-# (forma 2: después de acceder a archivos Excel)
+# ACCEDER A LOS DATOS DEL ARCHIVO .txt
 var(dataCostesTxt$costo_unit) # dará error -> no es accesible
 
 # vamos a hacer los datos accesibles de forma "global" convirtiendo dataCostesTxt
@@ -69,7 +68,7 @@ class(costo_mat) # integer
 
 
 
-# IMPORTAR DATOS DESDE UN ARCHIVO DE EXCEL
+# IMPORTAR DATOS DESDE UN ARCHIVO DE EXCEL CON COMANDOS -> forma 1 (comandos)
 # para leer de un archivo Excel, hay que instalar y activar algunos paquetes:
 
 # PASO 1: comprobar librerías
@@ -95,9 +94,7 @@ library() # debemos ver si tenemos "readxl" y "openxlsx" instalados
 library(readxl)
 library(openxlsx)
 
-
-
-# ACCEDER A LOS DATOS DEL ARCHIVO Excel  -> forma 1: comandos
+# Ahora sí, se importan los datos con read_excel()
 dataCostesXLSX <- read_excel("costes.xlsx")
 
 dataCostesXLSX # visualizar que se haya importado bien
@@ -112,7 +109,20 @@ dataCostesXLSX # visualizar que se haya importado bien
 
 
 
-# ACCEDER A LOS DATOS DEL ARCHIVO Excel -> forma 2: panel environment
+# ACCEDER A LOS DATOS DEL ARCHIVO Excel
+# 
+# OPCIÓN 1: comando attach(), al igual que pasaba con los archivos .txt
+# 
+# OPCIÓN 2: usar el nombre de la variable donde hemos guardado los datos
+# y añadir el símbolo de dolar ($) seguido del nombre de la variable a la
+# que se quiere acceder
+attach(dataCostesXLSX)
+
+dataCostesXLSX$costo.unit
+
+
+
+# IMPORTAR ARCHIVOS SIN USAR COMANDOS -> forma 2: panel environment
 # Ir a la ventana superior derecha de RStudio y clicar en "Import Dataset"
 # Seleccionar:
 #   "From Text(base)" para archivos .txt
