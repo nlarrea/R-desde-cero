@@ -16,6 +16,10 @@ En este apartado, se explicará cómo importar y exportar datos desde archivos t
 
 <br>
 
+[<< TEMA 3](../03-data-structures/README.md#estructuras-de-datos) | [TEMA 5 >>](../05-analyzing-data/)
+
+<br>
+
 Es importante recordar que para importar y exportar datos **se recomienda trabajar dentro del directorio** donde se encuentra el archivo en cuestión, o al que se desea exportar.
 
 Para ello, existen dos comandos muy útiles:

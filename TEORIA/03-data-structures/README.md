@@ -36,6 +36,10 @@ En este apartado se explicarán las estructuras de datos más utilizadas en R. S
   * [Creación de factores](#creación-de-factores)
   * [Operar con factores](#operar-con-factores)
 
+<br>
+
+[<< TEMA 2](../02-control-flow/README.md#condiciones-bucles-y-funciones) | [TEMA 4 >>](../04-import-export-data/README.md#importar-y-exportar-datos)
+
 
 <br><hr>
 <hr><br>

@@ -1,5 +1,7 @@
 # INTRODUCCIÓN A R
 
+[TEMA 2 >>](../02-control-flow/README.md#condiciones-bucles-y-funciones)
+
 ## ¿Qué es R?
 
 R es un lenguaje de programación para el análisis estadístico de datos. Además:

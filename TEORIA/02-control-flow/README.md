@@ -17,6 +17,10 @@ En este apartado vamos a ver cómo podemos controlar el flujo de ejecución de n
   * [break y next](#break-y-next)
 * [Funciones](#funciones)
 
+<br>
+
+[<< TEMA 1](../01-introduction/README.md#introducción-a-r) | [TEMA 3 >>](../03-data-structures/README.md#estructuras-de-datos)
+
 
 <br><hr>
 <hr><br>
