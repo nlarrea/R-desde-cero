@@ -6,14 +6,14 @@ getwd()
 
 # interesante trabajar en el directorio desde el que se van a importar datos
 # cambiamos la ubicación en la que está trabajando R:
-setwd("C:/Users/larre/Documents/NAIA/programacion/R-desde-cero/04-analyzing-data")
+setwd("C:/Users/larre/Documents/NAIA/programacion/repositorio-R/R-desde-cero/TEORIA/04-importar-exportar-datos/")
 getwd() # para comprobar que se ha cambiado el directorio
 
 
 
 # IMPORTAR DATOS DE ARCHIVO .txt CON COMANDOS -> forma 1 (comandos) -> read.table()
 # primero cambio el directorio por haber añadido carpeta para archivos
-setwd("C:/Users/larre/Documents/NAIA/programacion/R-desde-cero/04-analyzing-data/data-to-import")
+setwd("C:/Users/larre/Documents/NAIA/programacion/repositorio-R/R-desde-cero/TEORIA/04-importar-exportar-datos/datos-para-importar/")
 
 # guardamos en "dataCostesTxt" los datos importados desde el archivo costes.txt
 dataCostesTxt <- read.table(file = "costes.txt", header = TRUE, dec = ".", sep = "\t")

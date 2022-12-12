@@ -4,8 +4,9 @@
 #   - openxlsx
 # RECORDATORIO -> PREFERIBLE ESTAR TRABAJANDO EN EL DIRECTORIO DE TRABAJO DONDE
 # SE VAN A IMPORTAR / EXPORTAR LOS DATOS
-#   - getwd() ->
-#   - setwd() ->
+#   - getwd() -> ver en qué directorio estamos
+#   - setwd() -> cambiar a otro directorio
+setwd("C:/Users/larre/Documents/NAIA/programacion/repositorio-R/R-desde-cero/TEORIA/04-importar-exportar-datos/datos-exportados/")
 
 # se pueden exportar los datos guardados en un data frame tanto a formato .txt,
 # como a Excel
@@ -31,9 +32,9 @@ mean(num_cuadrado)
 
 
 # EXPORTAR A .txt
-write.table(numeros, file = "exported-data/numeros-exportados.txt", sep = "\t", dec = ".", row.names = FALSE, col.names = TRUE)
+write.table(numeros, file = "numeros-exportados.txt", sep = "\t", dec = ".", row.names = FALSE, col.names = TRUE)
 
 
 
 # EXPORTAR A Excel
-write.xlsx(numeros, file = "exported-data/numeros-exportados.xlsx")
+write.xlsx(numeros, file = "numeros-exportados.xlsx")
