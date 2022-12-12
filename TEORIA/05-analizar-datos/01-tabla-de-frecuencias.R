@@ -66,10 +66,10 @@ tablaFreq <- data.frame(Clases, FrecAbsoluta, FrecRelativa, FrecAbsAcumulada, Fr
 tablaFreq
 
 # Exportar tabla de frecuencias en formato .txt y Excel
-setwd("C:/Users/larre/Documents/NAIA/programacion/R-desde-cero/TEORIA/05-analyzing-data/")
+setwd("C:/Users/larre/Documents/NAIA/programacion/repositorio-R/R-desde-cero/TEORIA/05-analizar-datos/")
 # exportar a .txt
-write.table(tablaFreq, file = "exported-data/01-frequency-table/tablaFreq1.txt", quote = FALSE, sep = "\t", dec = ".", row.names = FALSE, col.names = TRUE)
+write.table(tablaFreq, file = "datos-exportados/01-tabla-de-frecuencias/tablaFreq1.txt", quote = FALSE, sep = "\t", dec = ".", row.names = FALSE, col.names = TRUE)
 # exportar a Excel
 library(readxl)
 library(openxlsx)
-write.xlsx(tablaFreq, file = "exported-data/01-frequency-table/tablaFreq1.xlsx")
+write.xlsx(tablaFreq, file = "datos-exportados/01-tabla-de-frecuencias/tablaFreq1.xlsx")
