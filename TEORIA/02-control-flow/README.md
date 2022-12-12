@@ -71,7 +71,7 @@ He aquí una imagen comparativa cuando el valor de `x` es mayor o menor que 5:
 
 ![01-if](https://user-images.githubusercontent.com/110897750/204314769-1b55d9ff-f4db-4c87-b849-8f7e9fdc9002.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo o seguir leyendo.</sub>
+<sub>[Volver al índice](#indice) | [Bucles](#bucles)</sub>
 
 
 <br><hr>
@@ -108,7 +108,7 @@ Este sería el resultado:
 
 ![02-else](https://user-images.githubusercontent.com/110897750/204314772-2b7574d3-0ef2-40c1-bdd9-466999006eba.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo o seguir leyendo.</sub>
+<sub>[Volver al índice](#indice) | [Bucles](#bucles)</sub>
 
 
 <br><hr>
@@ -149,7 +149,7 @@ Este sería el resultado:
 
 ![03-else-if](https://user-images.githubusercontent.com/110897750/204314773-984fedf7-7bfb-40dc-8f38-9f1588024172.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo o seguir leyendo.</sub>
+<sub>[Volver al índice](#indice) | [Bucles](#bucles)</sub>
 
 
 <br><hr>
@@ -172,7 +172,7 @@ Este sería el resultado:
 
 ![04-condiciones-multiples](https://user-images.githubusercontent.com/110897750/204314776-2d7dc8ad-385c-4991-abac-46ba27e13d1a.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo o seguir leyendo.</sub>
+<sub>[Volver al índice](#indice) | [Bucles](#bucles)</sub>
 
 
 <br><hr>
@@ -211,7 +211,7 @@ Este sería el resultado:
 
 ![05-ifelse](https://user-images.githubusercontent.com/110897750/204314778-4efe803e-29c2-4787-b80a-09bd228a8600.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo o seguir leyendo.</sub>
+<sub>[Volver al índice](#indice) | [Bucles](#bucles)</sub>
 
 
 <br><hr>
@@ -298,7 +298,7 @@ legs("plant") # "Animal not found"
 
 En este ejemplo, se ha definido que si el animal es un perro, un gato, una vaca o un caballo, tendrá 4 patas. Si el animal es un pollo o un humano, tendrá 2 patas. Si el animal no está definido, se mostrará el mensaje "Animal not found".
 
-<sub>Puedes volver al [índice](#indice) de este archivo o seguir leyendo.</sub>
+<sub>[Volver al índice](#indice) | [Bucles](#bucles)</sub>
 
 
 <br><hr>
@@ -350,7 +350,7 @@ Este sería el resultado:
 
 ![01-while](https://user-images.githubusercontent.com/110897750/204329030-35fbef44-04b3-46b3-aeb5-f956ae67ab9a.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo o seguir leyendo.</sub>
+<sub>[Condiciones](#condiciones) | [Volver al índice](#indice) | [Funciones](#funciones)</sub>
 
 
 <br><hr>
@@ -388,7 +388,7 @@ Este sería el resultado:
 
 ![02-for](https://user-images.githubusercontent.com/110897750/204329039-058d4097-d2ec-4242-a5d5-924504f9ac74.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo o seguir leyendo.</sub>
+<sub>[Condiciones](#condiciones) | [Volver al índice](#indice) | [Funciones](#funciones)</sub>
 
 
 <br><hr>
@@ -424,7 +424,7 @@ Este sería el resultado:
 
 ![03-break-next](https://user-images.githubusercontent.com/110897750/204329043-0b4146f0-acfd-4b66-8d51-0750b7a3ebc5.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo o seguir leyendo.</sub>
+<sub>[Condiciones](#condiciones) | [Volver al índice](#indice) | [Funciones](#funciones)</sub>
 
 
 <br><hr>
@@ -496,7 +496,7 @@ Este sería el resultado:
 
 ![02-return](https://user-images.githubusercontent.com/110897750/204329207-5b9a4cf6-81f2-4fa1-bba2-41e74489c7b9.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo o seguir leyendo.</sub>
+<sub>[Bucles](#bucles) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -537,7 +537,7 @@ Este sería el resultado:
 
 ![03-argumentos-por-defecto](https://user-images.githubusercontent.com/110897750/204329209-831995e5-1c09-4e55-b6f0-809062a9f6fc.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo o seguir leyendo.</sub>
+<sub>[Bucles](#bucles) | [Volver al índice](#indice)</sub>
 
 <br>
 
