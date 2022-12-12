@@ -1,7 +1,7 @@
 # ENUNCIADO 3
 # 1) Importar el archiv "olcars.txt" y hacerlo accesible
-setwd("C:/Users/larre/Documents/NAIA/programacion/repositorio-R/R-desde-cero/EJERCICIOS/01-descriptive-statistics/")
-oldcars <- read.table(file = "data-to-import/oldcars.txt", sep = "\t", dec = ".", header = TRUE)
+setwd("C:/Users/larre/Documents/NAIA/programacion/repositorio-R/R-desde-cero/EJERCICIOS/01-ejercicios-basicos/")
+oldcars <- read.table(file = "datos-para-importar/oldcars.txt", sep = "\t", dec = ".", header = TRUE)
 attach(oldcars)
 oldcars
 
