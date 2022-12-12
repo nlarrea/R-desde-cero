@@ -38,7 +38,7 @@ En este apartado se explicarán las estructuras de datos más utilizadas en R. S
 
 <br>
 
-[<< TEMA 2](../02-control-flow/README.md#condiciones-bucles-y-funciones) | [TEMA 4 >>](../04-import-export-data/README.md#importar-y-exportar-datos)
+[<< TEMA 2](../02-control-de-flujo/README.md#condiciones-bucles-y-funciones) | [TEMA 4 >>](../04-importar-exportar-datos/README.md#importar-y-exportar-datos)
 
 
 <br><hr>
@@ -795,7 +795,7 @@ Este es el resultado:
 
 <br>
 
-Por otro lado, se hablará de la creación de data frames a través de ficheros de datos en la sección de [importación de datos del **TEMA 4**](../04-import-export-data/README.md#importar-datos).
+Por otro lado, se hablará de la creación de data frames a través de ficheros de datos en la sección de [importación de datos del **TEMA 4**](../04-importar-exportar-datos/README.md#importar-datos).
 
 
 <br><hr>
@@ -1105,7 +1105,7 @@ Como se puede observar, la función `table()` ha creado un data frame con la fre
 
 <br>
 
-[<< TEMA 2](../02-control-flow/README.md#condiciones-bucles-y-funciones) | [TEMA 4 >>](../04-import-export-data/README.md#importar-y-exportar-datos)
+[<< TEMA 2](../02-control-de-flujo/README.md#condiciones-bucles-y-funciones) | [TEMA 4 >>](../04-importar-exportar-datos/README.md#importar-y-exportar-datos)
 
 
 <br><hr>

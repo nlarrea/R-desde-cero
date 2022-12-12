@@ -21,13 +21,13 @@ En este apartado, se explicará cómo generar y guardar gráficos de diferentes 
 
 <br>
 
-[<< TEMA 5](../05-analyzing-data/) | [EJERCICIOS](https://github.com/NLarrea/R-desde-cero/tree/main/EJERCICIOS)
+[<< TEMA 5](../05-analizar-datos/) | [EJERCICIOS](https://github.com/NLarrea/R-desde-cero/tree/main/EJERCICIOS)
 
 <br>
 
 Es importante recordar que para generar gráficos **se recomienda trabajar dentro del directorio** donde se desearía guardar dicho gráfico.
 
-Para ello, existen dos comandos útiles vistos ya anteriormente en el [TEMA 4](../04-import-export-data/README.md#importar-y-exportar-datos):
+Para ello, existen dos comandos útiles vistos ya anteriormente en el [TEMA 4](../04-importar-exportar-datos/README.md#importar-y-exportar-datos):
 
 * *`getwd()`:* muestra el directorio en el que nos encontramos actualmente.
 * *`setwd()`:* permite modificar el directorio de trabajo.
@@ -615,7 +615,7 @@ Al trabajar con decimales, se debe tener en cuenta que el diagrama de tallos y h
 
 <br>
 
-[<< TEMA 5](../05-analyzing-data/) | [EJERCICIOS](https://github.com/NLarrea/R-desde-cero/tree/main/EJERCICIOS)
+[<< TEMA 5](../05-analizar-datos/) | [EJERCICIOS](https://github.com/NLarrea/R-desde-cero/tree/main/EJERCICIOS)
 
 
 <br><hr>

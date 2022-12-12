@@ -41,19 +41,19 @@ Se recomienda clonar el repositorio para tener los archivos de código a mano, o
 
 ## Temario del curso - TEORÍA
 
-* **#01** - [Introducción a R](https://github.com/NLarrea/R-desde-cero/tree/main/TEORIA/01-introduction)
-* **#02** - [Condiciones, bucles y funciones](https://github.com/NLarrea/R-desde-cero/tree/main/TEORIA/02-control-flow)
-* **#03** - [Estructuras de datos](https://github.com/NLarrea/R-desde-cero/tree/main/TEORIA/03-data-structures)
-* **#04** - [Importar y exportar datos](https://github.com/NLarrea/R-desde-cero/tree/main/TEORIA/04-import-export-data)
-* **#05** - [Análisis de datos](https://github.com/NLarrea/R-desde-cero/tree/main/TEORIA/05-analyzing-data)
-* **#06** - [Gráficos](https://github.com/NLarrea/R-desde-cero/tree/main/TEORIA/06-plots)
+* **#01** - [Introducción a R](TEORIA/01-introduccion/)
+* **#02** - [Condiciones, bucles y funciones](TEORIA/02-control-de-flujo/)
+* **#03** - [Estructuras de datos](TEORIA/03-estructuras-de-datos/)
+* **#04** - [Importar y exportar datos](TEORIA/04-importar-exportar-datos/)
+* **#05** - [Análisis de datos](TEORIA/05-analizar-datos/)
+* **#06** - [Gráficos](TEORIA/06-graficos/)
 
 <br>
 
 ## Temario del curso - EJERCICIOS
 
-* **#01** - [Ejercicios básicos](https://github.com/NLarrea/R-desde-cero/tree/main/EJERCICIOS/01-basic-exercises)
-* **#02** - [Estadística descriptiva](https://github.com/NLarrea/R-desde-cero/tree/main/EJERCICIOS/02-descriptive-statistics)
+* **#01** - [Ejercicios básicos](EJERCICIOS/01-ejercicios-basicos/)
+* **#02** - [Estadística descriptiva](EJERCICIOS/02-estadistica-descriptiva/)
 
 <br>
 

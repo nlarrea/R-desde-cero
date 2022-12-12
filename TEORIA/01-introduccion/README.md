@@ -1,6 +1,6 @@
 # INTRODUCCIÓN A R
 
-[TEMA 2 >>](../02-control-flow/README.md#condiciones-bucles-y-funciones)
+[TEMA 2 >>](../02-control-de-flujo/README.md#condiciones-bucles-y-funciones)
 
 ## ¿Qué es R?
 
@@ -168,7 +168,7 @@ Operadores:
 
 <br>
 
-[TEMA 2 >>](../02-control-flow/README.md#condiciones-bucles-y-funciones)
+[TEMA 2 >>](../02-control-de-flujo/README.md#condiciones-bucles-y-funciones)
 
 
 <br><hr>

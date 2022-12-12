@@ -19,7 +19,7 @@ En este apartado vamos a ver cómo podemos controlar el flujo de ejecución de n
 
 <br>
 
-[<< TEMA 1](../01-introduction/README.md#introducción-a-r) | [TEMA 3 >>](../03-data-structures/README.md#estructuras-de-datos)
+[<< TEMA 1](../01-introduccion/README.md#introducción-a-r) | [TEMA 3 >>](../03-estructuras-de-datos/README.md#estructuras-de-datos)
 
 
 <br><hr>
@@ -541,7 +541,7 @@ Este sería el resultado:
 
 <br>
 
-[<< TEMA 1](../01-introduction/README.md#introducción-a-r) | [TEMA 3 >>](../03-data-structures/README.md#estructuras-de-datos)
+[<< TEMA 1](../01-introduccion/README.md#introducción-a-r) | [TEMA 3 >>](../03-estructuras-de-datos/README.md#estructuras-de-datos)
 
 
 <br><hr>
