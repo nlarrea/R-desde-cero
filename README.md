@@ -52,7 +52,7 @@ Se recomienda clonar el repositorio para tener los archivos de código a mano, o
 
 ## Temario del curso - EJERCICIOS
 
-* **#01** - [Ejercicios básicos](EJERCICIOS/01-ejercicios-basicos/)
+* **#01** - [Ejercicios básicos](EJERCICIOS/01-ejercicios-basicos/ENUNCIADOS.md)
 * **#02** - [Estadística descriptiva](EJERCICIOS/02-estadistica-descriptiva/)
 
 <br>
