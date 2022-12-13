@@ -55,6 +55,8 @@ El resultado de dicho código es el propio cambio de directorio.
 
 ## Plot
 
+<sub>* [Ver código](01-plot.R)</sub>
+
 Para crear este tipo de gráficos se utiliza el comando `plot()`, indicando los siguientes argumentos:
 
 * ***`x`*:** indica qué valores hay en el eje X.
@@ -246,6 +248,8 @@ Este es el resultado:
 
 ## Gráficos de barras
 
+<sub>* [Ver código](02-barplot.R)</sub>
+
 Se pueden generar gráficos de barras con el comando `barplot()`. Al igual que con los gráficos de líneas, se pueden personalizar de muchas maneras.
 
 He aquí un ejemplo:
@@ -318,6 +322,8 @@ Este es el resultado:
 
 ## Gráfico de secciones
 
+<sub>* [Ver código](03-pie.R)</sub>
+
 Este tipo de gráfico es también conocido como el gráfico de pastel o de quesito. Se puede generar con el comando `pie()`.
 
 Así como en el [apartado anterior](#renombrar-las-barras) se ha visto que se pueden renombrar las barras, se ha de saber que también se pueden renombrar las secciones del gráfico de secciones. Para ello, se usa el argumento `labels`.
@@ -381,6 +387,8 @@ Este es el resultado:
 
 
 ## Diagrama de cajas
+
+<sub>* [Ver código](04-boxplots-histograms.R)</sub>
 
 Se puede generar un diagrama de cajas con el comando `boxplot()`. Este tipo de gráfico es muy útil para el análisis de datos, puesto que muestra los siguientes datos:
 
@@ -551,6 +559,8 @@ Este es el resultado:
 
 ## Histogramas
 
+<sub>* [Ver código](04-boxplots-histograms.R)</sub>
+
 Se puede generar un histograma con el comando `hist()`. Este tipo de gráfico es muy útil para el análisis de datos, puesto que muestra la frecuencia de los datos.
 
 He aquí un ejemplo:
@@ -573,6 +583,8 @@ Este es el resultado:
 
 
 ## Diagrama de tallos y hojas
+
+<sub>* [Ver código](05-diagrama-de-tallos.R)</sub>
 
 Se puede generar un diagrama de tallos y hojas con el comando `stem()`. No se genera un gráfico como tal, sino que se muestra el resultado en la consola, sin embargo, se podría calificar como un gráfico.
 

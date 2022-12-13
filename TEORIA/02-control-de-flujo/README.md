@@ -16,6 +16,7 @@ En este apartado vamos a ver cómo podemos controlar el flujo de ejecución de n
   * [for()](#for)
   * [break y next](#break-y-next)
 * [Funciones](#funciones)
+  * [Parámetros por defecto](#parámetros-por-defecto)
 
 <br>
 
@@ -27,6 +28,8 @@ En este apartado vamos a ver cómo podemos controlar el flujo de ejecución de n
 
 
 ## Condiciones
+
+<sub>* [Ver código](01-condiciones.R)</sub>
 
 Las condiciones son una parte fundamental de la programación. Nos permiten controlar el flujo de ejecución de nuestro código. En R, las condiciones se pueden definir con las siguientes palabras clave:
 
@@ -307,6 +310,8 @@ En este ejemplo, se ha definido que si el animal es un perro, un gato, una vaca 
 
 ## Bucles
 
+<sub>* [Ver código](02-bucles.R)</sub>
+
 Los bucles son estructuras de control que permiten repetir una o varias instrucciones un número determinado de veces o hasta que se cumpla una condición.
 
 En R se pueden definir dos tipos de bucles:
@@ -432,6 +437,8 @@ Este sería el resultado:
 
 
 ## Funciones
+
+<sub>* [Ver código](03-funciones.R)</sub>
 
 Las funciones son bloques de código que realizan una tarea específica. En R, las funciones se definen con la palabra clave `function()`. Esta sería la sintaxis de una función:
 

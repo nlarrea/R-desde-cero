@@ -47,6 +47,8 @@ En este apartado se explicarán las estructuras de datos más utilizadas en R. S
 
 ## Strings
 
+<sub>* [Ver código](01-strings.R)</sub>
+
 Los strings son cadenas de texto. En R se pueden definir de dos formas:
 
 * Usando **commillas dobles**: `"Hola"`
@@ -183,6 +185,8 @@ Este es el resultado:
 
 
 ## Vectores
+
+<sub>* [Ver código](02-vectores.R)</sub>
 
 Los vectores son estructuras de datos que almacenan datos de un mismo tipo, siempre en una sola dimensión.
 
@@ -482,6 +486,8 @@ Este sería el resultado:
 
 ## Listas
 
+<sub>* [Ver código](03-listas.R)</sub>
+
 Las listas son estructuras de datos que pueden contener varios tipos de datos. Al igual que ocurría con los vectores, se debe tener en cuenta que las listas son también estructuras de datos de una sola dimensión.
 
 He aquí un ejemplo:
@@ -632,6 +638,8 @@ He aquí una muestra:
 
 ## Matrices
 
+<sub>* [Ver código](04-matrices.R)</sub>
+
 Las matrices son estructuras de datos que contienen varios elementos, al igual que los vectores, todos los elementos deben ser del mismo tipo de dato. Las matrices son estructuras de datos de dos dimensiones.
 
 Para definir una nueva matriz, se utiliza la función `matrix()`, la cual puede recibir los siguientes parámetros:
@@ -768,6 +776,8 @@ Este es el resultado:
 
 
 ## Data frames
+
+<sub>* [Ver código](05-data-frames.R)</sub>
 
 Los data frames son una estructura de datos que permite almacenar datos de diferentes tipos en forma de tabla. Cada columna de la tabla representa una variable, y cada fila representa una observación.
 
@@ -1016,6 +1026,8 @@ Este es el resultado:
 
 
 ## Factores
+
+<sub>* [Ver código](05-data-frames.R)</sub>
 
 Los factores son una estructura de datos que se utiliza para representar variables categóricas. Estas variables categóricas pueden ser de dos tipos:
 

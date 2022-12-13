@@ -54,6 +54,8 @@ Esto es lo que se mostraría por consola:
 
 ## Importar datos
 
+<sub>* [Ver código](01-importar-datos.R)</sub>
+
 Como es evidente, para poder analizar datos, es necesario introducirlos, ya sea de forma manual o mediante algún otro medio.
 
 Por ello, R proporciona estos dos medios para poder importar datos:
@@ -270,6 +272,8 @@ Para ello, se debe acceder a la ventana *superior derecha* y buscar la pestaña 
 
 
 ## Exportar datos
+
+<sub>* [Ver código](02-exportar-datos.R)</sub>
 
 En primer lugar, recordar que se recomienda **conocer y/o modificar el directorio de trabajo** que se está utilizando. Para ello, se utilizan los siguientes comandos:
 

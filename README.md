@@ -41,12 +41,12 @@ Se recomienda clonar el repositorio para tener los archivos de código a mano, o
 
 ## Temario del curso - TEORÍA
 
-* **#01** - [Introducción a R](TEORIA/01-introduccion/)
-* **#02** - [Condiciones, bucles y funciones](TEORIA/02-control-de-flujo/)
-* **#03** - [Estructuras de datos](TEORIA/03-estructuras-de-datos/)
-* **#04** - [Importar y exportar datos](TEORIA/04-importar-exportar-datos/)
+* **#01** - [Introducción a R](TEORIA/01-introduccion/README.md)
+* **#02** - [Condiciones, bucles y funciones](TEORIA/02-control-de-flujo/README.md)
+* **#03** - [Estructuras de datos](TEORIA/03-estructuras-de-datos/README.md)
+* **#04** - [Importar y exportar datos](TEORIA/04-importar-exportar-datos/README.md)
 * **#05** - [Análisis de datos](TEORIA/05-analizar-datos/)
-* **#06** - [Gráficos](TEORIA/06-graficos/)
+* **#06** - [Gráficos](TEORIA/06-graficos/README.md)
 
 <br>
 

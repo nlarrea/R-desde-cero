@@ -1,6 +1,8 @@
 # INTRODUCCIÓN A R
 
-[TEMA 2 >>](../02-control-de-flujo/README.md#condiciones-bucles-y-funciones)
+<sub>* [Ver código](introduccion.R)</sub>
+
+[EJERCICIOS](../../EJERCICIOS/) | [TEMA 2 >>](../02-control-de-flujo/README.md#condiciones-bucles-y-funciones)
 
 ## ¿Qué es R?
 
@@ -154,6 +156,8 @@ Operadores:
   * El símbolo `*` indica la multiplicación
   * El símbolo `/` indica la división
   * Los símbolos `^` o `**` indican la potencia
+  * El símbolo `%%` indica el módulo
+  * El símbolo `%/%` indica la división entera (sin decimales)
 * **Operadores lógicos**: son símbolos que indican una operación lógica. Por ejemplo:
   * El símbolo `==` indica la igualdad
   * El símbolo `!=` indica la desigualdad
@@ -168,7 +172,7 @@ Operadores:
 
 <br>
 
-[TEMA 2 >>](../02-control-de-flujo/README.md#condiciones-bucles-y-funciones)
+[EJERCICIOS](../../EJERCICIOS/) | [TEMA 2 >>](../02-control-de-flujo/README.md#condiciones-bucles-y-funciones)
 
 
 <br><hr>
