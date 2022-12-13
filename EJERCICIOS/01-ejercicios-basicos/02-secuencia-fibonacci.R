@@ -1,3 +1,9 @@
+# FIBONACCI
+# 
+# Escribe un programa que pida al usuario un número entero positivo
+# (N, por ejemplo) y muestre por pantalla los primeros N números de la
+# secuencia de Fibonacci, comenzando desde el 0.
+
 fib <- function(i, f1, f2){
   if(i == 0) return(0)
   else if(i == 1) return(1)
