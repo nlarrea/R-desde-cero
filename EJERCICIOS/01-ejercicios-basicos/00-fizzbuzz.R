@@ -1,4 +1,4 @@
-# FIZZ BUZZ
+# 00 - FIZZ BUZZ
 # 
 # Escribe un programa que muestre por consola (con un print) los números deL
 # 1 aL 100 (ambos incluidos y con un salto de línea entre cada impresión),

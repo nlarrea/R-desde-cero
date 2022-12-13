@@ -4,7 +4,8 @@ En esta carpeta se encuentran los enunciados de los ejercicios básicos de R. Se
 
 <p id="indice">He aquí una lista de los enunciados (se irán añadiendo más con el tiempo):</p>
 
-* #01 - [Fizz Buzz](#01---fizz-buzz)
+* #00 - [Fizz Buzz](#00---fizz-buzz)
+* #01 - [Anagramas](#01---anagramas)
 * #02 - [Secuencia de Fibonacci](#02---secuencia-de-fibonacci)
 
 <br>
@@ -16,7 +17,9 @@ En esta carpeta se encuentran los enunciados de los ejercicios básicos de R. Se
 <hr><br>
 
 
-## 01 - Fizz Buzz
+## 00 - Fizz Buzz
+
+<sub>[Volver al índice](#indice) | [#01 - Anagramas](#01---anagramas)</sub>
 
 **Escribe un programa que muestre por consola (con un print) los números de 1 a 100 (ambos incluidos y con un salto de línea entre cada impresión), sustituyendo los siguientes:**
 
@@ -41,15 +44,69 @@ for(i in 1:100){
 
 </p>
 <p>
-    <a href="https://github.com/NLarrea/R-desde-cero/blob/main/EJERCICIOS/01-ejercicios-basicos/01-fizzbuzz.R">
+    <a href="https://github.com/NLarrea/R-desde-cero/blob/main/EJERCICIOS/01-ejercicios-basicos/00-fizzbuzz.R">
         Verlo en el repositorio
     </a>
 </p>
 </details>
 
+
+<br><hr>
+<hr><br>
+
+
+## 01 - Anagramas
+
+<sub>[#00 - Fizz Buzz](#00---fizz-buzz) | [Volver al índice](#indice) | [#02 - Secuencia de Fibonacci](#02---secuencia-de-fibonacci)</sub>
+
+
+**Escribe una función que reciba dos palabras (String) y retorne verdadero o falso (Boolean) según sean o no anagramas.**
+
+**Un Anagrama consiste en formar una palabra reordenando TODAS las letras de otra palabra inicial.**
+
+* **NO hace falta comprobar que ambas palabras existan.**
+* **Dos palabras exactamente iguales no son anagrama.**
+
 <br>
 
-<sub>[Volver al índice](#indice) | [#02 - Secuencia de Fibonacci](#02---secuencia-de-fibonacci)</sub>
+<details>
+<summary>SOLUCIÓN</summary>
+<p>
+
+```r
+isAnagram <- function(str1 = "", str2 = ""){
+    if(length(str1) != length(str2)) return(FALSE) # si no tienen la misma longitud, no son anagramas
+    if(tolower(str1) == tolower(str2)) return(FALSE) # si son iguales, no son anagramas
+  
+    # install.packages("gtools") # quitar el comentario si no se tiene instalado el paquete
+    library(gtools) # activar la librería
+
+    # crear listas con las letras de cada palabra ordenadas alfabéticamente
+    list1 <- c(mixedsort(strsplit(tolower(str1), "")[[1]]))
+    list2 <- c(mixedsort(strsplit(tolower(str2), "")[[1]]))
+
+    # comparar cada letra de cada palabra
+    for(i in 1:nchar(str1)){
+      if(list1[i] != list2[i]) return(FALSE) # si alguna letra es diferente, no son anagramas
+    }
+
+    return(TRUE) # si llega hasta aquí, son anagramas
+}
+
+# pruebas de que el código funciona
+print(isAnagram("mora", "roma")) # TRUE
+print(isAnagram("pose", "rose")) # FALSE
+print(isAnagram("hello", "world")) # FALSE
+print(isAnagram("hello", "olleh")) # TRUE
+```
+
+</p>
+<p>
+    <a href="https://github.com/NLarrea/R-desde-cero/blob/main/EJERCICIOS/01-ejercicios-basicos/01-anagrama.R">
+        Verlo en el repositorio
+    </a>
+</p>
+</details>
 
 
 <br><hr>
@@ -57,6 +114,8 @@ for(i in 1:100){
 
 
 ## 02 - Secuencia de Fibonacci
+
+<sub>[#01 - Anagramas](#01---anagramas) | [Volver al índice](#indice)</sub>
 
 **Escribe un programa que pida al usuario un número entero positivo (N, por ejemplo) y muestre por pantalla los primeros N números de la secuencia de Fibonacci, comenzando desde el 0.**
 
@@ -126,11 +185,8 @@ for(i in 1:num){
 </p>
 </details>
 
-<br>
+<br><br>
 
-<sub>[#01 - Fizz Buzz](#01---fizz-buzz) | [Volver al índice](#indice)</sub>
-
-<br>
 
 [<< TEORÍA](../../TEORIA/) | [Estadística descriptiva >>](../02-estadistica-descriptiva/)
 

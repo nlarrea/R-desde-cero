@@ -1,4 +1,4 @@
-# FIBONACCI
+# 02 - FIBONACCI
 # 
 # Escribe un programa que pida al usuario un número entero positivo
 # (N, por ejemplo) y muestre por pantalla los primeros N números de la
