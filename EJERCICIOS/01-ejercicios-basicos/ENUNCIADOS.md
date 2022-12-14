@@ -4,9 +4,9 @@ En esta carpeta se encuentran los enunciados de los ejercicios básicos de R. Se
 
 <p id="indice">He aquí una lista de los enunciados (se irán añadiendo más con el tiempo):</p>
 
-* #00 - [Fizz Buzz](#00---fizz-buzz)
-* #01 - [Anagramas](#01---anagramas)
-* #02 - [Secuencia de Fibonacci](#02---secuencia-de-fibonacci)
+* **#00** - [Fizz Buzz](#00---fizz-buzz)
+* **#01** - [Anagramas](#01---anagramas)
+* **#02** - [Secuencia de Fibonacci](#02---secuencia-de-fibonacci)
 
 <br>
 
