@@ -1,5 +1,14 @@
 # STRINGS = cadenas de texto
 
+# obtener caracteres o partes del string -> substr()
+str <- "Hola mundo"
+substr(str, 1, 1) # "H"
+substr(str, 6, 10) # "mundo"
+
+# separar en chars / convertir string en vector de caracteres -> strsplit()
+strsplit(str, "") # "H" "o" "l" "a" " " "m" "u" "n" "d" "o"
+str # "Hola mundo" -> no afecta al string original
+
 # concatenar o unir cadenas -> paste()
 t1 <- "hello"
 t2 <- "world"

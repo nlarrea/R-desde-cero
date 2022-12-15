@@ -5,8 +5,8 @@ En este apartado se explicarán las estructuras de datos más utilizadas en R. S
 <p id="indice">He aquí el índice de este apartado:</p>
 
 * [Strings](#strings)
-  * [Concatenar strings](#concatenar-strings)
   * [Longitud de un string](#longitud-de-un-string)
+  * [Concatenar strings](#concatenar-strings)
   * [Poner en mayúsculas o minúsculas](#poner-en-mayúsculas-o-minúsculas)
   * [Convertir en número](#convertir-en-número)
 * [Vectores](#vectores)
@@ -49,7 +49,7 @@ En este apartado se explicarán las estructuras de datos más utilizadas en R. S
 
 <sub>* [Ver código](01-strings.R)</sub>
 
-Los strings son cadenas de texto. En R se pueden definir de dos formas:
+En R, los strings se pueden definir de dos formas:
 
 * Usando **commillas dobles**: `"Hola"`
 * Usando **comillas simples**: `'Hola'`
@@ -61,6 +61,72 @@ Un string puede contener comillas dentro de sí mismo, siempre y cuando se usen 
 ```r
 "Hola 'mundo'"
 ```
+
+<br>
+
+Los strings son comúnmente llamados "cadenas de texto". En R, los strings se consideran vectores de caracteres, lo que para la mayoría del resto de lenguajes vendría a ser una matriz de cadenas.
+
+Es decir, que teniendo el siguiente ejemplo, si trato de acceder al primer caracter del string, realmente obtendré la cadena entera:
+
+```r
+str <- "Hola mundo"
+str[1] # esto devuelve: "Hola mundo"
+```
+
+<br>
+
+Para poder acceder correctamente a los caracteres, se debe usar la función `substr()`:
+
+```r
+str <- "Hola mundo"
+substr(str, 1, 1) # esto devuelve: "H"
+```
+
+<br>
+
+La función `substr()` recibe tres parámetros:
+
+* **#1**: El string del que se quiere obtener el caracter.
+* **#2**: La posición del primer caracter que se quiere obtener.
+* **#3**: La posición del segundo caracter que se quiere obtener.
+
+<br>
+
+Como habrás deducido, la función `substr()` permite obtener uno o varios caracteres del string.
+
+Si lo que deseas es *romper* un string haciendo que éste pase a ser un vector de caracteres, deberás utilizar la función `strsplit()`:
+
+```r
+str <- "Hola mundo"
+strsplit(str, "") # esto devuelve: "H" "o" "l" "a" " " "m" "u" "n" "d" "o"
+```
+
+<br>
+
+<sub>[Volver al índice](#indice) | [Vectores](#vectores)</sub>
+
+
+<br><hr>
+
+
+### Longitud de un string
+
+En ocasiones es necesario conocer la longitud de un string. Para ello, se puede usar la función `nchar()`:
+
+```r
+texto <- "Hola mundo!"
+nchar(texto)
+```
+
+<br>
+
+Como se puede observar, la función `nchar()` devuelve el número de caracteres que tiene el string, incluyendo los espacios en blanco.
+
+Este es el resultado:
+
+![03-nchar](https://user-images.githubusercontent.com/110897750/206910963-7caf9bb3-93dd-4620-ad4b-2ba718f8b046.jpg)
+
+<sub>[Volver al índice](#indice) | [Vectores](#vectores)</sub>
 
 
 <br><hr>
@@ -100,29 +166,6 @@ Esta vez, se le ha indicado que debe separar los textos con un guión medio. Com
 El código anterior imprimirá en la consola:
 
 ![02-paste-dash](https://user-images.githubusercontent.com/110897750/206910962-6f40a70a-1a84-4e79-89eb-5767ddd2bff7.jpg)
-
-<sub>[Volver al índice](#indice) | [Vectores](#vectores)</sub>
-
-
-<br><hr>
-
-
-### Longitud de un string
-
-En ocasiones es necesario conocer la longitud de un string. Para ello, se puede usar la función `nchar()`:
-
-```r
-texto <- "Hola mundo!"
-nchar(texto)
-```
-
-<br>
-
-Como se puede observar, la función `nchar()` devuelve el número de caracteres que tiene el string, incluyendo los espacios en blanco.
-
-Este es el resultado:
-
-![03-nchar](https://user-images.githubusercontent.com/110897750/206910963-7caf9bb3-93dd-4620-ad4b-2ba718f8b046.jpg)
 
 <sub>[Volver al índice](#indice) | [Vectores](#vectores)</sub>
 
