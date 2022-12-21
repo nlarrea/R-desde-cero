@@ -44,7 +44,7 @@ for(i in 1:100){
 
 </p>
 <p>
-    <a href="https://github.com/NLarrea/R-desde-cero/blob/main/EJERCICIOS/01-ejercicios-basicos/00-fizzbuzz.R">
+    <a href="https://github.com/nlarrea/R-desde-cero/blob/main/EJERCICIOS/01-ejercicios-basicos/00-fizzbuzz.R">
         Verlo en el repositorio
     </a>
 </p>
@@ -102,7 +102,7 @@ print(isAnagram("hello", "olleh")) # TRUE
 
 </p>
 <p>
-    <a href="https://github.com/NLarrea/R-desde-cero/blob/main/EJERCICIOS/01-ejercicios-basicos/01-anagrama.R">
+    <a href="https://github.com/nlarrea/R-desde-cero/blob/main/EJERCICIOS/01-ejercicios-basicos/01-anagrama.R">
         Verlo en el repositorio
     </a>
 </p>
@@ -156,7 +156,7 @@ while(i < num){
 
 </p>
 <p>
-    <a href="https://github.com/NLarrea/R-desde-cero/blob/main/EJERCICIOS/01-ejercicios-basicos/02-secuencia-fibonacci.R">
+    <a href="https://github.com/nlarrea/R-desde-cero/blob/main/EJERCICIOS/01-ejercicios-basicos/02-secuencia-fibonacci.R">
         Verlo en el repositorio
     </a>
 </p>
