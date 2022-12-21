@@ -1,7 +1,7 @@
 # R-desde-cero
 
-![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/NLarrea/R-desde-cero/9e2046994dbefc73bebaf73a591d772ae0de19fd/main?label=commits%20counter&style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/NLarrea/R-desde-cero?style=flat-square)
+![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/nlarrea/R-desde-cero/9e2046994dbefc73bebaf73a591d772ae0de19fd/main?label=commits%20counter&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/nlarrea/R-desde-cero?style=flat-square)
 
 [![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)](https://cran.r-project.org/)
 [![RStudio](https://img.shields.io/badge/RStudio-%23150458.svg?style=for-the-badge&logo=RStudio&logoColor=white)](https://posit.co/download/rstudio-desktop/)
