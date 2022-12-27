@@ -1,4 +1,4 @@
-# ENUNCIADOS
+# ENUNCIADOS DE EJERCICIOS BÁSICOS DE R
 
 En esta carpeta se encuentran los enunciados de los ejercicios básicos de R. Se entienden como *ejercicios básicos* aquellos que sean para practicar los conceptos de R, cómo crear funciones, mejorar la lógica de programación, etc.
 
