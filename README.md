@@ -55,7 +55,7 @@ Se recomienda clonar el repositorio para tener los archivos de código a mano, o
 * **#01** - [Ejercicios básicos](EJERCICIOS/01-ejercicios-basicos/README.md#enunciados-de-ejercicios-básicos-de-r)
 * **#02** - [Estadística descriptiva](EJERCICIOS/02-estadistica-descriptiva/README.md#enunciados-de-estadística-descriptiva)
 * **#03** - [Variable aleatoria discreta](EJERCICIOS/03-variable-aleatoria-discreta/README.md#enunciados-variable-aleatoria-discreta)
-* **#04** - [Variable aleatoria continua](EJERCICIOS/04-variable-aleatoria-continua/)
+* **#04** - [Variable aleatoria continua](EJERCICIOS/04-variable-aleatoria-continua/README.md#enunciados-variable-aleatoria-continua)
 
 <br>
 
