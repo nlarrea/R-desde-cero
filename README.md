@@ -53,8 +53,8 @@ Se recomienda clonar el repositorio para tener los archivos de código a mano, o
 ## Temario del curso - EJERCICIOS
 
 * **#01** - [Ejercicios básicos](EJERCICIOS/01-ejercicios-basicos/README.md#enunciados-de-ejercicios-básicos-de-r)
-* **#02** - [Estadística descriptiva](EJERCICIOS/02-estadistica-descriptiva/)
-* **#03** - [Variable aleatoria discreta](EJERCICIOS/03-variable-aleatoria-discreta/)
+* **#02** - [Estadística descriptiva](EJERCICIOS/02-estadistica-descriptiva/README.md#enunciados-de-estadística-descriptiva)
+* **#03** - [Variable aleatoria discreta](EJERCICIOS/03-variable-aleatoria-discreta/README.md#enunciados-variable-aleatoria-discreta)
 * **#04** - [Variable aleatoria continua](EJERCICIOS/04-variable-aleatoria-continua/)
 
 <br>

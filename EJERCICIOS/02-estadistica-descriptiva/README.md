@@ -24,11 +24,13 @@ En esta carpeta se encuentran los enunciados de los ejercicios de estadística d
 <sub>[Volver al índice](#indice) | [02 - Datasets de mtcars](#02---datasets-de-mtcars)</sub>
 
 **Agrupa los datos en los siguientes 5 intervalos: [30,50), [50,70), [70,90), [90,110), [100,???) y construye una tabla de frecuencias en las que figuren las siguientes columnas:**
-    **- intervalos**
-    **- frecuencia absoluta**
-    **- frecuencia relativa**
-    **- frecuencia absoluta acumulada**
-    **- frecuencia absoluta relativa**
+
+* **intervalos**
+* **frecuencia absoluta**
+* **frecuencia relativa**
+* **frecuencia absoluta acumulada**
+* **frecuencia absoluta relativa**
+
 **Datos: 50, 68, 84, 86, 64, 67, 78, 87, 110, 85, 52, 65, 52, 93, 72, 70, 105, 85, 30, 42, 74, 30, 70, 65, 49**
 
 <br>
