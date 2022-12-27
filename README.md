@@ -41,18 +41,18 @@ Se recomienda clonar el repositorio para tener los archivos de código a mano, o
 
 ## Temario del curso - TEORÍA
 
-* **#01** - [Introducción a R](TEORIA/01-introduccion/README.md)
-* **#02** - [Condiciones, bucles y funciones](TEORIA/02-control-de-flujo/README.md)
-* **#03** - [Estructuras de datos](TEORIA/03-estructuras-de-datos/README.md)
-* **#04** - [Importar y exportar datos](TEORIA/04-importar-exportar-datos/README.md)
+* **#01** - [Introducción a R](TEORIA/01-introduccion/README.md#introducción-a-r)
+* **#02** - [Condiciones, bucles y funciones](TEORIA/02-control-de-flujo/README.md#condiciones-bucles-y-funciones)
+* **#03** - [Estructuras de datos](TEORIA/03-estructuras-de-datos/README.md#estructuras-de-datos)
+* **#04** - [Importar y exportar datos](TEORIA/04-importar-exportar-datos/README.md#importar-y-exportar-datos)
 * **#05** - [Análisis de datos](TEORIA/05-analizar-datos/)
-* **#06** - [Gráficos](TEORIA/06-graficos/README.md)
+* **#06** - [Gráficos](TEORIA/06-graficos/README.md#gráficos)
 
 <br>
 
 ## Temario del curso - EJERCICIOS
 
-* **#01** - [Ejercicios básicos](EJERCICIOS/01-ejercicios-basicos/ENUNCIADOS.md)
+* **#01** - [Ejercicios básicos](EJERCICIOS/01-ejercicios-basicos/README.md#enunciados)
 * **#02** - [Estadística descriptiva](EJERCICIOS/02-estadistica-descriptiva/)
 
 <br>
