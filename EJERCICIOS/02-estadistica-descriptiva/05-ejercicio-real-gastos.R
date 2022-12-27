@@ -1,11 +1,11 @@
 # ENUNCIADO 5:
-# Este es el consumo de gasolina (l/100km) de 27 automÛviles:
+# Este es el consumo de gasolina (l/100km) de 27 autom√≥viles:
 # 2,1 3,3 4,4 3,0 4,0 5,0 2,7 2,6 4,8
 # 4,7 2,8 4,8 3,9 2,3 3,8 2,8 3,0 3,7
 # 3,3 4,4 3,1 4,0 3,7 2,5 2,7 5,1 4,7
 
-# 1) Crea un objeto concatenando la lista de los elementos y asign·ndole el nombre
-#"consumo"
+# 1) Crea un objeto concatenando la lista de los elementos y asign√°ndole el
+# nombre "consumo"
 consumo <- c(2.1,3.3,4.4,3.0,4.0,5.0,2.7,2.6,4.8,4.7,2.8,4.8,3.9,2.3,3.8,2.8,3.0,
              3.7,3.3,4.4,3.1,4.0,3.7,2.5,2.7,5.1,4.7)
 
@@ -19,5 +19,5 @@ consumo <- c(2.1,3.3,4.4,3.0,4.0,5.0,2.7,2.6,4.8,4.7,2.8,4.8,3.9,2.3,3.8,2.8,3.0
 gasto <- consumo * 1.5
 mean(gasto) # 5.4
 
-n <- length(gasto) # 27 (lo sabÌamos porque lo dice el enunciado)
+n <- length(gasto) # 27 (lo sab√≠amos porque lo dice el enunciado)
 var(gasto) * (n - 1) / n # 1.788333

@@ -4,9 +4,10 @@ library(datasets)
 attach(mtcars) # para convertir los datos de mtcars en "variables accesibles"
 mtcars
 
-# 2) Generamos una nueva variable litros100km (litros/100km). 
-# Para ello, pasamos mpg (millas por galón) a litros/100km, sabiendo que
-#una milla son 1.609 km, y un galón son 3.8 Litros
+# 2) Generamos una nueva variable litros100km (litros/100km).
+# 
+# Para ello, pasamos mpg (millas por gal?n) a litros/100km, sabiendo que
+# una milla son 1.609 km, y un gal?n son 3.8 Litros
 litros100km <- (1 / (mpg * (1.609344 / 3.78541))) * 100
 litros100km
 

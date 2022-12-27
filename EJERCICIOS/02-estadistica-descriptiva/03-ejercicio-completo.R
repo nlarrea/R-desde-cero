@@ -1,6 +1,6 @@
 # ENUNCIADO 3
-# 1) Importar el archiv "olcars.txt" y hacerlo accesible
-setwd("C:/Users/larre/Documents/NAIA/programacion/repositorio-R/R-desde-cero/EJERCICIOS/01-ejercicios-basicos/")
+# 1) Importar el archiv "oldcars.txt" y hacerlo accesible
+setwd("C:/Users/larre/Documents/NAIA/programacion/repositorio-R/R-desde-cero/EJERCICIOS/02-estadistica-descriptiva/")
 oldcars <- read.table(file = "datos-para-importar/oldcars.txt", sep = "\t", dec = ".", header = TRUE)
 attach(oldcars)
 oldcars
@@ -8,7 +8,7 @@ oldcars
 
 
 # 2) Construye la tabla de frecuencias de la variable qsec.
-#El n˙mero de intervalos y amplitud es a tu criterio
+# El n√∫mero de intervalos y amplitud es a tu criterio
 n <- length(qsec)
 
 sort(qsec) # minValue = 14.5, maxValue = 22.9
@@ -38,7 +38,7 @@ tablaFrec
 
 
 
-# 3) Haz un gr·fico de tallos y hojas para la variable qsec
+# 3) Haz un gr√°fico de tallos y hojas para la variable qsec
 stem(qsec)
 # imprime:
 # 14 | 56
@@ -53,33 +53,33 @@ stem(qsec)
 
 
 
-# 4) Haz un histograma para qsec poniendo tÌtulo, nombre a los ejes y cambiando
-#el tamaÒo de las etiquetas de los ejes y color de las barras
+# 4) Haz un histograma para qsec poniendo t√≠tulo, nombre a los ejes y cambiando
+#el tama√±o de las etiquetas de los ejes y color de las barras
 hist(qsec,
-     main = "Histograma QSEC", cex.main = 1.5, # tÌtulo y tamaÒo del tÌtulo
+     main = "Histograma QSEC", cex.main = 1.5, # t√≠tulo y tama√±o del t√≠tulo
      xlab = "Tiempo para realizar 1/4 milla (qsec)", # etiqueta eje x
      ylab = "Frecuencia absoluta", # etiqueta eje y
-     ylim = c(0,13), # lÌmites del eje y (valores del 0 al 13)
+     ylim = c(0,13), # l√≠mites del eje y (valores del 0 al 13)
      axes = TRUE, # que ponga los ejes y los valores (por defecto = TRUE)
-     cex.axis = 0.8, # tamaÒo de los n˙meros de los ejes
-     cex.lab = 0.8, # tamaÒo de las etiquetas del eje x e y
+     cex.axis = 0.8, # tama√±o de los n√∫meros de los ejes
+     cex.lab = 0.8, # tama√±o de las etiquetas del eje x e y
      col = "red") # color del histograma
 
 
 
-# 5) Comprobar el tamaÒo de cualquier otra variable importada. Crear otro objeto
-#con la misma cantidad de datos con n˙meros aleatorios continuos y otro con
-#n˙meros aleatorios enteros (escoger cualquier rango de n˙meros)
+# 5) Comprobar el tama√±o de cualquier otra variable importada. Crear otro objeto
+# con la misma cantidad de datos con n√∫meros aleatorios continuos y otro con
+# n√∫meros aleatorios enteros (escoger cualquier rango de n√∫meros)
 nVar <- length(vs) # 32L
-obj1 <- runif(nVar, 5, 10) # n˙meros continuos aleatorios entre el 5 y el 10
+obj1 <- runif(nVar, 5, 10) # n√∫meros continuos aleatorios entre el 5 y el 10
 obj1
-obj2 <- sample(0:10, nVar, replace = TRUE) # n˙meros enteros aleatorios entre 0 y 10
+obj2 <- sample(0:10, nVar, replace = TRUE) # n√∫meros enteros aleatorios entre 0 y 10
 obj2
 
 
 
 # 6) Crea un data frame uniendo la base de datos oldcars importada y los dos
-#objetos creados en el apartado 5)
+# objetos creados en el apartado 5)
 oldcars2 <- data.frame(oldcars, obj1, obj2)
 oldcars2
 
@@ -93,7 +93,8 @@ oldcars[1:10, 3:4] # 10 primeras filas, columnas 3 y 4
 
 
 # 8) Para las variables creadas en el apartado 5), calcula las medidas de
-#tendencia central (media, mediana, moda), cuartil 3, decil 1 y percentil 30
+# tendencia central (media, mediana, moda), cuartil 3, decil 1 y percentil 30
+# 
 # medias
 mean(obj1) # 7.515437
 mean(obj2) # 5.8125
@@ -104,12 +105,12 @@ median(obj2) # 7
 
 # modas
 frecAbs1 <- data.frame(table(obj1))
-# pedimos que mire cu·l es el valor de recuencia m·s alto y nos devuelva su
-#valor pero de la primera columna
+# pedimos que mire cu√°l es el valor de frecuencia m√°s alto y nos devuelva su
+# valor pero de la primera columna
 frecAbs1[which.max(frecAbs1$Freq), 1] # 5.0965442112647
 frecAbs2 <- data.frame(table(obj2))
-# pedimos que mire cu·l es el valor de recuencia m·s alto y nos devuelva su
-#valor pero de la primera columna
+# pedimos que mire cu√°l es el valor de frecuencia m√°s alto y nos devuelva su
+# valor pero de la primera columna
 frecAbs2[which.max(frecAbs2$Freq), 1] # 7
 
 # Q3
@@ -134,9 +135,9 @@ varObj2 # 10.08984
 
 
 
-# 10) Calcula el rango intercuartÌlico para qsec
+# 10) Calcula el rango intercuart√≠lico para qsec
 #   - con el comando IQR
-#   - "a mano" obteniendo Q1 y Q3, y rest·ndolos (Q3 - Q1)
+#   - "a mano" obteniendo Q1 y Q3, y rest√°ndolos (Q3 - Q1)
 # comando
 IQR(qsec) # 2.0075
 
@@ -148,22 +149,22 @@ qsecQ3 - qsecQ1 # 2.0075
 
 
 
-# 11) Medidas de forma. Calcular la asimetrÌa y curtÛsis de qsec
-library(e1071) # activamos la librerÌa
+# 11) Medidas de forma. Calcular la asimetr√≠a y curtosis de qsec
+library(e1071) # activamos la librer?a
 
-# asimetrÌa
-skewness(qsec) # 0.369453 = num positivo -> asimetrÌa a la derecha
+# asimetr?a
+skewness(qsec) # 0.369453 = num positivo -> asimetr√≠a a la derecha
 
 # curtosis
-kurtosis(qsec) # 0.3351142 = num positivo -> leptoc˙rtica
+kurtosis(qsec) # 0.3351142 = num positivo -> leptoc√∫rtica
 
 
 
-# 12) Haz un diagrama de cajas para qsec. Determina el dato atÌpico y elimÌnalo
-#para hacer otro diagrama de cajas
+# 12) Haz un diagrama de cajas para qsec. Determina el dato at√≠pico y elim√≠nalo
+# para hacer otro diagrama de cajas
 boxplot(qsec) # primer diagrama
-boxplot.stats(qsec) # out = 22.9 = dato a eliminar -> buscar su posiciÛn
+boxplot.stats(qsec) # out = 22.9 = dato a eliminar -> buscar su posici√≥n
 which(qsec == 22.9) # 9
-qsecSin <- qsec[-9] # qsecSin = qsec sin el valor en la posiciÛn 9
+qsecSin <- qsec[-9] # qsecSin = qsec sin el valor en la posici√≥n 9
 sort(qsecSin) # comprobamos que no tenga el valor 22.9
-boxplot(qsecSin) # segundo diagrama -> sin datos atÌpicos
+boxplot(qsecSin) # segundo diagrama -> sin datos at√≠picos
