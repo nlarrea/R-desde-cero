@@ -51,6 +51,9 @@ amplitudIntervalos <- (max(datos) - min(datos)) / nIntervalos # 16
 # límites
 limites <- c(30, 50, 70, 90, 110, 100, Inf)
 
+# creamos los intervalos
+intervalos <- cut(datos, limites, right = FALSE)
+
 # tabla de frecuencias
 tablaF <- as.data.frame(table(intervalos))
 
