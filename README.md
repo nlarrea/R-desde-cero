@@ -45,7 +45,7 @@ Se recomienda clonar el repositorio para tener los archivos de código a mano, o
 * **#02** - [Condiciones, bucles y funciones](TEORIA/02-control-de-flujo/README.md#condiciones-bucles-y-funciones)
 * **#03** - [Estructuras de datos](TEORIA/03-estructuras-de-datos/README.md#estructuras-de-datos)
 * **#04** - [Importar y exportar datos](TEORIA/04-importar-exportar-datos/README.md#importar-y-exportar-datos)
-* **#05** - [Análisis de datos](TEORIA/05-analizar-datos/)
+* **#05** - [Análisis de datos](TEORIA/05-analizar-datos/README.md#analizar-datos)
 * **#06** - [Gráficos](TEORIA/06-graficos/README.md#gráficos)
 
 <br>

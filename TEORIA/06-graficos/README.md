@@ -21,7 +21,7 @@ En este apartado, se explicará cómo generar y guardar gráficos de diferentes 
 
 <br>
 
-[<< TEMA 5](../05-analizar-datos/) | [EJERCICIOS](https://github.com/nlarrea/R-desde-cero/tree/main/EJERCICIOS)
+[<< TEMA 5](../05-analizar-datos/README.md#analizar-datos) | [EJERCICIOS](https://github.com/nlarrea/R-desde-cero/tree/main/EJERCICIOS)
 
 <br>
 
@@ -627,7 +627,7 @@ Al trabajar con decimales, se debe tener en cuenta que el diagrama de tallos y h
 
 <br>
 
-[<< TEMA 5](../05-analizar-datos/) | [EJERCICIOS](https://github.com/nlarrea/R-desde-cero/tree/main/EJERCICIOS)
+[<< TEMA 5](../05-analizar-datos/README.md#analizar-datos) | [EJERCICIOS](https://github.com/nlarrea/R-desde-cero/tree/main/EJERCICIOS)
 
 
 <br><hr>

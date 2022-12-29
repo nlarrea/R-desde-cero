@@ -16,7 +16,7 @@ En este apartado, se explicará cómo importar y exportar datos desde archivos t
 
 <br>
 
-[<< TEMA 3](../03-estructuras-de-datos/README.md#estructuras-de-datos) | [TEMA 5 >>](../05-analizar-datos/)
+[<< TEMA 3](../03-estructuras-de-datos/README.md#estructuras-de-datos) | [TEMA 5 >>](../05-analizar-datos/README.md#analizar-datos)
 
 <br>
 
@@ -361,7 +361,7 @@ A diferencia de lo ocurrido con los blocs de notas, los parámetros necesarios e
 
 <br>
 
-[<< TEMA 3](../03-estructuras-de-datos/README.md#estructuras-de-datos) | [TEMA 5 >>](../05-analizar-datos/)
+[<< TEMA 3](../03-estructuras-de-datos/README.md#estructuras-de-datos) | [TEMA 5 >>](../05-analizar-datos/README.md#analizar-datos)
 
 
 <br><hr>
