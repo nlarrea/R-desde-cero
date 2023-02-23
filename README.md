@@ -1,7 +1,7 @@
 # R-desde-cero
 
-![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/nlarrea/R-desde-cero/9e2046994dbefc73bebaf73a591d772ae0de19fd/main?label=commits%20counter&style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/nlarrea/R-desde-cero?style=flat-square)
+![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/nlarrea/R-desde-cero/9e2046994dbefc73bebaf73a591d772ae0de19fd/main?label=commits%20counter&style=flat-square&labelColor=181717&color=006c67)
+![GitHub last commit](https://img.shields.io/github/last-commit/nlarrea/R-desde-cero?style=flat-square&labelColor=181717&color=006c67)
 
 [![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)](https://cran.r-project.org/)
 [![RStudio](https://img.shields.io/badge/RStudio-%23150458.svg?style=for-the-badge&logo=RStudio&logoColor=white)](https://posit.co/download/rstudio-desktop/)
@@ -70,7 +70,9 @@ Se recomienda clonar el repositorio para tener los archivos de código a mano, o
 Si tienes alguna duda o sugerencia acerca del contenido de este documento o cualquier otro asunto, no dudes en contactar conmigo:
 
 <div align="center">
-&emsp;<a href="https://twitter.com/nloust_"><img width="16" alt="twitter_logo" src="https://user-images.githubusercontent.com/110897750/195668304-54d1fbb3-bea1-4f9d-9ee7-7e494bd79013.png"> @nloust_</a> <!-- twitter: -->
-&emsp;<a href="https://www.instagram.com/n.loust/"><img width="16" alt="instagram_logo" src="https://seeklogo.com/images/I/instagram-new-2016-logo-4773FE3F99-seeklogo.com.png"> @n.loust</a> <!-- instagram: -->
-&emsp;<a href="https://www.linkedin.com/in/naia-larrea/"><img width="16" alt="linkedin_logo" src="https://user-images.githubusercontent.com/110897750/195669519-30e44b5d-4bef-47d3-9e37-81cff0ee5e55.png"> Naia Larrea</a> <!-- linkedin: -->
+
+[![Twitter](https://img.shields.io/badge/Twitter-@nlarrea__-1DA1F2?style=flat-square&logo=Twitter&logoColor=white&labelColor=181717&label)](https://twitter.com/nlarrea_) &emsp;
+[![Instagram](https://img.shields.io/badge/Instagram-@n.loust-E4405F?style=flat-square&logo=Instagram&logoColor=white&labelColor=181717&label)](https://www.instagram.com/n.loust/) &emsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Naia%20Larrea-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white&labelColor=181717&label)](https://www.linkedin.com/in/naia-larrea/)
+
 </div>
