@@ -523,20 +523,3 @@ pnorm(1200, media, desv_tipica) - pnorm(1084.5, media, desv_tipica) # 0.4995723
 
 
 [<< Variable aleatoria discreta](../03-variable-aleatoria-discreta/README.md#enunciados-variable-aleatoria-discreta) | [TEORÍA](../../TEORIA)
-
-
-<br><hr>
-<hr><br>
-
-
-# Contacto
-
-Si tienes alguna duda o sugerencia acerca del contenido de este documento o cualquier otro asunto, no dudes en contactar conmigo:
-
-<div align="center">
-
-[![Twitter](https://img.shields.io/badge/Twitter-@nlarrea__-1DA1F2?style=flat-square&logo=Twitter&logoColor=white&labelColor=181717&label)](https://twitter.com/nlarrea_) &emsp;
-[![Instagram](https://img.shields.io/badge/Instagram-@n.loust-E4405F?style=flat-square&logo=Instagram&logoColor=white&labelColor=181717&label)](https://www.instagram.com/n.loust/) &emsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Naia%20Larrea-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white&labelColor=181717&label)](https://www.linkedin.com/in/naia-larrea/)
-
-</div>
