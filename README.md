@@ -59,7 +59,8 @@ Se recomienda clonar el repositorio para tener los archivos de código a mano, o
 
 <br>
 
-<sub>El curso se está llevando a cabo. En un futuro se irán añadiendo ejercicios y ejemplos más prácticos y completos que los que se muestran en los archivos actuales, además de ficheros README con explicaciones aún más detalladas.</sub>
+> [!WARNING]
+> El curso se está llevando a cabo. En un futuro se irán añadiendo ejercicios y ejemplos más prácticos y completos que los que se muestran en los archivos actuales, además de ficheros README con explicaciones aún más detalladas.
 
 
 <br><hr><br>
